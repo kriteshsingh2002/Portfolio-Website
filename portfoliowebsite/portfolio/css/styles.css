@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(17, 55, 70);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+font-size: 30px;
+padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{background-color: white;
+      width: 90vw;}
+
+.container{
+        display: flex;
+}
+.infocontainer{
+background-color:white;
+height: 60vh;
+width: 80vw;
+margin: 144px auto;
+display: flex;
+justify-content: space-around;
+}
+.devinfo{ display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: 'Quicksand', sans-serif;
+font-size: 16px;
+}
+.hello{
+    font-size: 3em;
+    
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.about{
+    font-size: 2.5em;
+}
+
+.buttons {
+margin-top: 2.2em;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight:bold ;
+    font: size 21px; ;
+    margin: 0 3px;
+    cursor: pointer; 
+}
+
+    .btn-sm
+    {  
+        font-size: 17px;
+}
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+.devpic img {
+    height: 58vh;
+}
+.contactform{
+padding:0 34px ;
+font-family: 'Yanone Kaffeesatz', sans-serif ;
+margin:  88px;
+}
+.contactform h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+   
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+   
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form{
+   
+   margin: 0 40px;
+}
+#emailHelp{
+    font-size: 15px;
+    color: rgb(88, 88, 218);
+    margin: 0 5px;
+    padding: 3px 0 0;
+}
+#form-check{
+flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+.intro h2{
+    font-family:'Quicksand', sans-serif ;
+    margin: 12px;
+}
+.intro p{
+
+    font-family:'Yanone Kaffeesatz', sans-serif ;
+    margin: 12px;
+}
+.skill{
+    width: 265px;
+    height: 7px;
+    background-color: rgb(248, 108, 14);
+}
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillItem{
+display: flex;
+align-items: center;
+font-family:'Quicksand', sans-serif;
+font-weight: 400;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+@media (max-width: 1615px){
+    .buttons{
+        font-size: 8px;
+    }
+    .devpic{
+        display: none;
+    }
+
+    .intro, .contactform{
+        margin:50px 8px;
+        
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+}
+.resumePic img{
+    height: 80vh;
+    position: absolute;
+    cursor: pointer;
+
+}
+.resumePic{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.hamburger{
+    position: absolute;
+cursor: pointer;
+top: 10px;
+left: 10px;
+
+}
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
